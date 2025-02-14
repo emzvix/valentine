@@ -39,6 +39,10 @@ button {
     cursor: pointer; /* Set cursor to pointer on hover */
 }
 
+button:hover {
+  transform: scale(1.2);
+}
+
 #letter-container {
     margin-top: 50px;
     font-family: 'Darumadrop One', normal; /* Apply Darumadrop font to the question */
