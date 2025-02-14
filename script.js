@@ -57,8 +57,9 @@ function displayCatHeart() {
     };
 }
 
-function showLetter() {
-
+function hideLetter() {
+        document.getElementById('letter-container').style.display = 'none';
 }
 // Display the cat.gif initially
+hideLetter();
 displayCat();
