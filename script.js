@@ -63,7 +63,9 @@ function hidePlaylist() {
 function hideLetter() {
     document.getElementById('letter-container').style.display = 'none';
 }
-// Display the cat.gif initially
+
+
+displayCat();
 hideLetter();
 hidePlaylist();
-displayCat();
+
