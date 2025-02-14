@@ -1,6 +1,6 @@
 // Function to handle button click events
+
 function selectOption(option) {
-    document.getElementById('letter-container').style.display = 'none';
     // Check which option was clicked
     if (option === 'yes') {
         document.getElementById('question').style.display = 'none'; // Hide the question
