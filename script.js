@@ -54,11 +54,7 @@ function displayCatHeart() {
         // Hide the options container
         document.getElementById('options').style.display = 'none';
         document.getElementById('letter-container').style.display = 'block';
-        document.getElementById('playlist').style.display = 'block';
     };
-}
-function hidePlaylist() {
-    document.getElementById('playlist').style.display = 'none';
 }
 function hideLetter() {
     document.getElementById('letter-container').style.display = 'none';
@@ -67,5 +63,4 @@ function hideLetter() {
 
 displayCat();
 hideLetter();
-hidePlaylist();
 
